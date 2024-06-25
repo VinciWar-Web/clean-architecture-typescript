@@ -29,3 +29,4 @@ export const pokemonSlice = createSlice({
 })
 
 export const { getAllPokemons } = pokemonSlice.actions
+export default pokemonSlice.reducer
